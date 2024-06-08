@@ -5,8 +5,9 @@ function Content() {
   return (
     <>
       <div className="container">
-        {data.map((item) => (
+        {data.map((item, index) => (
           <CardItem
+            key={index}
             src={item.src}
             name={item.name}
             price={item.price}
