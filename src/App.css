@@ -35,4 +35,26 @@
 
 /* Carousel */
 
+.section {
+  text-align: center;
+  /* to display the h1 and p at the center of the div */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* ----------------------- */
+  height: 300px;
+  color: white;
+  background-color: #212529;
+}
+
+.section-title {
+  font-size: 56px;
+}
+
+.tagline {
+  color: #90928e;
+  font-size: 20px;
+}
+
 /* Content */

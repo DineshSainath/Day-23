@@ -27,7 +27,7 @@ const MyNavbar = () => {
             </NavDropdown>
           </Nav>
 
-          <Button className="cartButton" variant="outline-dark">
+          <Button className="cartButton " variant="outline-dark">
             <ShoppingCartIcon className="cartIcon" fontSize="small" /> Cart
             <span className="cartItems">
               <strong>{cartItems}</strong>
