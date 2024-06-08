@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
+/* Nav */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cartButton {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  padding: 5px 15px;
+  margin-right: 100px;
+}
+
+.cartButton:hover {
+  background-color: #e0e0e0;
+}
+
+.cartIcon {
+  margin-right: 5px;
+}
+
+.cartItems {
+  margin-left: 8px;
+  background-color: #212529;
   color: white;
+  font-size: small;
+  border-radius: 50%;
+  padding: 2px 4px;
+  display: inline-block;
+  min-width: 24px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-title {
+  margin-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Carousel */
+
+/* Content */
