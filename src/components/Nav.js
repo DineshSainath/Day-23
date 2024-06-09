@@ -1,11 +1,8 @@
-import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import { Navbar, Nav, NavDropdown, Button, Container } from "react-bootstrap";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
-const MyNavbar = () => {
-  const [cartItems, setCartItems] = useState(0);
-
+const MyNavbar = ({ cartItems }) => {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
@@ -26,8 +23,7 @@ const MyNavbar = () => {
               <NavDropdown.Item href="#">Something else here</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-
-          <Button className="cartButton " variant="outline-dark">
+          <Button className="cartButton" variant="outline-dark">
             <ShoppingCartIcon className="cartIcon" fontSize="small" /> Cart
             <span className="cartItems">
               <strong>{cartItems}</strong>
