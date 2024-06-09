@@ -2,6 +2,7 @@ import React from "react";
 import CardItem from "./CardItem";
 import data from "./Data";
 
+//importing and mapping data into cards.
 function Content({ toggleCart }) {
   return (
     <div className="container">

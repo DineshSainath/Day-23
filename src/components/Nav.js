@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Nav, NavDropdown, Button, Container } from "react-bootstrap";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
+//using bootstrap navbar
 const MyNavbar = ({ cartItems }) => {
   return (
     <Navbar bg="light" expand="lg">

@@ -5,9 +5,10 @@ import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 
 function CardItem({ src, name, price, rating, sale, toggleCart }) {
-  const [inCart, setInCart] = useState(false);
+  const [inCart, setInCart] = useState(false); //if the cart is empty or not for the button toggle
 
   const renderStars = (rating) => {
+    //displaying rating stars out of 5
     const stars = [];
     for (let i = 1; i <= 5; i++) {
       if (i <= rating) {
@@ -28,7 +29,7 @@ function CardItem({ src, name, price, rating, sale, toggleCart }) {
     setInCart(!inCart);
   };
 
-  const buttonText = inCart ? "Remove from Cart" : "Add to Cart";
+  const buttonText = inCart ? "Remove from Cart" : "Add to Cart"; //to display button text on toggle
 
   return (
     <Card style={{ width: "14rem" }}>

@@ -1,4 +1,5 @@
 function Carousel() {
+  //hero section
   return (
     <>
       <div className="section">

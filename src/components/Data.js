@@ -1,3 +1,4 @@
+//sending random data to allocate into cards.
 const data = [
   {
     src: "https://m.media-amazon.com/images/I/81MIzkWwn0L._AC_UF1000,1000_QL80_.jpg",
